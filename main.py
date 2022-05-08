@@ -3,7 +3,7 @@ from selenium import webdriver
 
 URL = "https://frs.gov.cz/cs/ioff/application-status"
 
-chromedriver_path = r"/usr/bin/chromedriver/chromedriver"
+chromedriver_path = r"/usr/bin/chromedriver"
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
 
